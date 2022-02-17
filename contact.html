@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="eduford_project.css" />
+  <title>Contact Us</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <link rel="stylesheet" href="payment.css">
+
+</head>
+
+<body>
+  <section class="contact-header">
+    <nav>
+      <a href="#"><img src="/images/logo.jpg" alt="" /> <strong>TSF GRIP</strong> </a>
+      <div class="nav-link" id="navlink">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <ul>
+            <li><a target="_blank" href="/index.html">HOME</a></li>
+            <li><a target="_blank" href="/donate.html">DONATE</a></li>
+            <li><a href="/contact.html">CONTACT US</a></li>
+            <li><a target="_blank" href="/about.html">ABOUT US</a></li>
+          </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <h1> CONTACT US </h1>
+
+  </section>
+
+
+  <!-- -=---- contact us --------  -->
+
+  <section class="contactUs">
+
+    <form class="my-form">
+      <div class="container">
+        <h1>Get In Touch</h1>
+
+        <div class="grid grid-2">
+          <input type="text" placeholder="Name" required>
+          <input type="text" placeholder="Surname" required>
+        </div>
+
+
+        <div class="grid grid-2">
+          <input type="email" placeholder="Email" required>
+          <input type="tel" placeholder="Phone">
+        </div>
+
+        <div class="grid grid-4">
+          <textarea placeholder="Message"></textarea>
+        </div>
+
+        <div class="grid grid-3">
+
+          <button class="btn-grid" type="submit">
+            <span class="front">SUBMIT</span>
+          </button>
+          <button class="btn-grid" type="reset">
+            <span class="front">RESET</span>
+          </button>
+        </div>
+
+
+      </div>
+    </form>
+
+
+  </section>
+
+
+  <section class="founder">
+
+    <div class="text-head">
+      <h1>Founder</h1>
+    </div>
+
+    <div class="f-txt">
+
+
+      <div class="left-f-txt">
+
+        <div class="f-head1">
+          <h1>Samyak Sheokar</h1>
+        </div>
+
+        <div class="f-para">
+          <p>Aspiring Developer, DevOps & Machine Learning </p>
+        </div>
+
+        <div class="f-head2">
+          <h3>Started New Sparks Foundation Website For Donation</h3>
+        </div>
+
+        <a href="" class="btn red-btn">Learn More...</a>
+
+        <div class="icons f-icon">
+          <a target="_blank" href="https://twitter.com/samyak2203"><i class="fa fa-twitter"></i></a>
+          <i class="fa fa-twitter  f-icon1"></i>
+          <i class="fa fa-instagram  f-icon1"></i>
+          <i class="fa fa-linkedin  f-icon1"></i>
+        </div>
+
+      </div>
+
+      <div class="f-img">
+        <img src="/images/IMG_20210921_100729.jpg" alt="">
+      </div>
+
+
+    </div>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <Section class="footer">
+    <h4>About US</h4>
+    <p>The Spark Foundation <br> "Task #3 Payment Gateway Integration" created by samyak sheokar </p>
+
+    <div class="icons">
+      <a target="_blank" href="https://twitter.com/samyak2203"><i class="fa fa-twitter"></i></a>
+      <a target="_blank" href="https://www.linkedin.com/in/samyak-sheokar-b2ab1821a/"><i class="fa fa-linkedin"></i></a>
+      <a href=""><i class="fa fa-instagram"></i></a>
+      <a href=""><i class="fa fa-linkedin"></i></a>
+    </div>
+  </Section>
+
+
+  <!-- javascrpt for toggle menu  -->
+
+  <script>
+    var navlink = document.getElementById("navlink");
+    function showMenu() {
+      navlink.style.right = "0";
+    }
+
+    function hideMenu() {
+      navlink.style.right = "-35%";
+    }
+  </script>
+
+
+
+</body>
+
+</html>
